@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Question4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        scanner.close();
         int value1 = scanner.nextInt();
         if (value1 > 0) {
             System.out.println("Positive");
